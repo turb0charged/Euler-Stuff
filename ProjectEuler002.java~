@@ -1,4 +1,5 @@
-//Program to find some of even numbers in the Fibonacci sequence less than 4mil
+//Program to find some of even numbers in the Fibonacci sequence less than 4mil\
+lion
 public class ProjectEuler002
 {
     public static void main (String[] args)
