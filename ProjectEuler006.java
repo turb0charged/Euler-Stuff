@@ -1,0 +1,15 @@
+//Find the difference between the sum of the square of the first 100 numbers
+// and the square of the sum
+public class ProjectEuler006{
+    public static void main (String[]args){
+	long sum=0;
+	long sqsum=0;
+	long diff_sum;
+	for(long x=1; x<=100; x++){;
+	    sum+=x*x;
+	    sqsum+=x;
+	}
+	diff_sum=sqsum*sqsum-sum;
+	System.out.println("The difference between the sum of the square of the first 100 numbers and the square of the sum is "+diff_sum);
+    }
+}

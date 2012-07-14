@@ -1,0 +1,17 @@
+public class ProjectEuler007{
+    public static void main(String[] args){
+	PrimeNumber p=new PrimeNumber();
+	int counter=1;
+	int num=2;
+	while(counter<=10001){
+	    if(p.PrimeorNot(num)==0){
+		counter++;
+		num++;
+	    }
+	    else{
+		num++:
+	    }
+	}
+	System.out.println(num+" this is the 10001st prime.");
+    }
+}
